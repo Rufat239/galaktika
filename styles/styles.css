@@ -1,0 +1,207 @@
+.fon {
+  width: 100%;
+  height: 120vh;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fon .cycle1 {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 20s infinite linear;
+  animation: firlat 20s infinite linear;
+}
+.fon .cycle1 .planet1 {
+  position: absolute;
+  top: 160px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.fon .cycle1 .planet1 img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+@-webkit-keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle2 {
+  position: absolute;
+  width: 570px;
+  height: 570px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 10s infinite linear;
+  animation: firlat 10s infinite linear;
+}
+.fon .cycle2 .planet2 {
+  position: absolute;
+  top: 125px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.fon .cycle2 .planet2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle3 {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 15s infinite linear;
+  animation: firlat 15s infinite linear;
+}
+.fon .cycle3 .planet3 {
+  position: absolute;
+  top: 100px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.fon .cycle3 .planet3 img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle4 {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 5s infinite linear;
+  animation: firlat 5s infinite linear;
+}
+.fon .cycle4 .planet4 {
+  position: absolute;
+  top: 82px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.fon .cycle4 .planet4 img {
+  width: 35px;
+  height: 35px;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle5 {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 3s infinite linear;
+  animation: firlat 3s infinite linear;
+}
+.fon .cycle5 .planet5 {
+  position: absolute;
+  top: 66px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.fon .cycle5 .planet5 img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle6 {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 2s infinite linear;
+  animation: firlat 2s infinite linear;
+}
+.fon .cycle6 .planet6 {
+  position: absolute;
+  top: 50px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.fon .cycle6 .planet6 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle7 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: firlat 1s infinite linear;
+  animation: firlat 1s infinite linear;
+}
+.fon .cycle7 .planet7 {
+  position: absolute;
+  top: 34px;
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.fon .cycle7 .planet7 img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+@keyframes firlat {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fon .cycle8 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+}
+.fon .cycle8 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+} /*# sourceMappingURL=homework13.css.map */
